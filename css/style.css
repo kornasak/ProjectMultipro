@@ -1,0 +1,66 @@
+body {
+    overflow: hidden;
+}
+
+div.column.is-12 {
+    height: 100vh;
+    background: url("../assets/img/h_bg.jpg");
+    background-size: 100%;
+    background-position-x: 200% !important;
+    background-repeat: no-repeat;
+}
+
+.side_nav {
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -25%;
+    background: white;
+    padding-top: 3rem;
+    transition: .3s;
+    overflow: hidden;
+}
+
+.fa.fa-bars:hover {
+    transition: .3s;
+}
+
+.morebtn {
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+.closebtn{
+    font-size: 2.5em;
+    margin-right: 3.5rem; 
+    color: black;
+}
+
+p.btn{
+    font-family: GLACIALINDIFFERENCE-REG;
+    font-size: 1.48em;
+    font-weight: bold;
+    margin-top: 20%;
+    margin-left: 6%;
+    color: #f34a28;
+    transition: none !important;
+}
+
+.t2 {
+    width: 100% !important;
+    height: 25px;
+    background: #f34a28;
+    position: absolute;
+    top: 90%;
+    left: 55%;
+    padding-left: 18%;
+    color: white;
+    font-family: GLACIALINDIFFERENCE-REG;
+    font-size: 0.9em;
+}
+
+.h_bg {
+    background-image: url("../assets/img/LOGO.png");
+}
