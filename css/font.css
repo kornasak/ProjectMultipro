@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "GLACIALINDIFFERENCE-BOLD";
+    src: url("../assets/fonts/GLACIALINDIFFERENCE-BOLD.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "GLACIALINDIFFERENCE-REG";
+    src: url("../assets/fonts/GLACIALINDIFFERENCE-REGULAR.otf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "JS-THANAPORN";
+    src: url("../assets/fonts/JS-THANAPORN.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "JS-THANAPORN-BOLD";
+    src: url("../assets/fonts/JS-THANAPORNBOLD.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "JS-THANAPORN-BOLDITC";
+    src: url("../assets/fonts/JS-THANAPORNBOLDITALIC.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "JS-THANAPORN-ITC";
+    src: url("../assets/fonts/JS-THANAPORNITALIC.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "KRUGMANNBRUSH";
+    src: url("../assets/fonts/KRUGMANNBRUSH.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "LAOSANGAMMN";
+    src: url("../assets/fonts/LAOSANGAMMN.ttf");
+    font-weight: normal;
+}
