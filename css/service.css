@@ -89,6 +89,7 @@ body {
     width: 20%;
     display: inline-block;
 }
+
 .b1 {
     background-image: url("../assets/img/preproduction.png");
     background-size: cover;
@@ -98,6 +99,7 @@ body {
     margin-left: 13rem;
 
 }
+
 .b2 {
     background-image: url("../assets/img/photography.png");
     background-size: cover;
@@ -106,6 +108,7 @@ body {
     margin-top: 5.5rem;
     margin-left: 35rem;
 }
+
 .b3 {
     background-image: url("../assets/img/retouch.png");
     background-size: cover;
@@ -114,6 +117,7 @@ body {
     margin-top: 5.5rem;
     margin-left: 57rem;
 }
+
 .b4 {
     background-image: url("../assets/img/printabdfinish.png");
     background-size: cover;
@@ -124,18 +128,23 @@ body {
     margin-left: 13rem;
     margin-bottom: 2rem;
 }
+
 .b1:hover .innertext {
     display: block;
 }
+
 .b2:hover .innertext {
     display: block;
 }
+
 .b3:hover .innertext {
     display: block;
 }
+
 .b4:hover .innertext {
     display: block;
 }
+
 .innertext {
     background-color: rgba(54, 54, 54, .5);
     color: #fff;
@@ -144,12 +153,14 @@ body {
     height: 93%;
     display: none;
 }
+
 .headertext{
     text-decoration: underline;
     font-family: LAOSANGAMMN;
     font-size: 1.5rem;
     font-weight: bold;
 }
+
 .subtext{
     font-family: JS-THANAPORN;
     font-weight: normal;
