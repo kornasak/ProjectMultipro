@@ -11,6 +11,12 @@ div.column.is-12 {
     background-repeat: no-repeat;
 }
 
+.more_menu{
+    color: #FFF;
+    font-size: 2rem;
+    padding: 3rem;
+}
+
 .b-logo {
     width: 55%;
     height: 55%;
@@ -88,4 +94,97 @@ div.column.is-12 {
     padding-top: calc(1.5vh - 0.8em);
     font-family: GLACIALINDIFFERENCE-REG;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1281px){
+    .tile {
+        width: 45vw;
+        height: 3vh;
+        background: #f34a28;
+        position: fixed;
+        right: 0;
+        bottom: 10%;
+        padding-left: 15em;
+        color: white;
+        font-size: 0.8em;
+        padding-top: calc(1.5vh - 0.8em);
+        font-family: GLACIALINDIFFERENCE-REG;
+        font-weight: bold;
+    }
+    .nav-index>.navbar-item>a {
+        font-family: GLACIALINDIFFERENCE-BOLD;
+        color: #f34a28;
+        font-size: 1.5rem;
+        margin-bottom: 1em;
+        letter-spacing: 0.1em;
+    }
+}
+@media screen and (max-width: 1280px) and (min-width: 1081px){
+    .tile {
+        width: 45vw;
+        height: 3vh;
+        background: #f34a28;
+        position: fixed;
+        right: 0;
+        bottom: 10%;
+        padding-left: 11em;
+        color: white;
+        font-size: 0.8em;
+        padding-top: calc(1.5vh - 0.8em);
+        font-family: GLACIALINDIFFERENCE-REG;
+        font-weight: bold;
+    }
+    .nav-index>.navbar-item>a {
+        font-family: GLACIALINDIFFERENCE-BOLD;
+        color: #f34a28;
+        font-size: 1.25rem;
+        margin-bottom: 1.25em;
+        letter-spacing: 0.1em;
+    }
+    .nav-index {
+        margin-top: 15vh;
+        margin-left: 2em;
+    }
+}
+@media screen and (max-width: 1080px) and (min-width: 768px){
+
+    .tile {
+        width: 50vw;
+        height: 3vh;
+        background: #f34a28;
+        position: fixed;
+        right: 0;
+        bottom: 10%;
+        padding-left: 2em;
+        color: white;
+        font-size: 0.8em;
+        padding-top: calc(1.5vh - 0.8em);
+        font-family: GLACIALINDIFFERENCE-REG;
+        font-weight: bold;
+    }
+    .nav-index>.navbar-item>a {
+        font-family: GLACIALINDIFFERENCE-BOLD;
+        color: #f34a28;
+        font-size: 1rem;
+        margin-bottom: 3em;
+        letter-spacing: 0.1em;
+    }
+    .more_menu{
+        color: #FFF;
+        font-size: 2rem;
+        padding: 2rem;
+    }
+    .closebtn {
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-right: 2rem;
+        color: black;
+    }
+    .navbar-item, .navbar-link {
+        color: #4a4a4a;
+        display: block;
+        line-height: 1.5;
+        padding: 0.5rem 0rem;
+        position: relative;
+    }
 }
