@@ -103,6 +103,8 @@ body {
 
 .movebg{
     background-image: url("../assets/img/CONTACT.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
     height: 30rem;
 }
 
