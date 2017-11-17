@@ -118,7 +118,7 @@ div.column.is-12 {
     }
 }
 
-@media screen and (max-width: 1080px) and (min-width: 768px) {
+@media screen and (max-width: 1080px) and (min-width: 769px) {
     .tile {
         padding-left: 7em;
     }
@@ -133,16 +133,24 @@ div.column.is-12 {
         margin-top: 2rem;
         margin-right: 2rem;
     }
-    .navbar-item,
+    /* .navbar-item,
     .navbar-link {
         color: #4a4a4a;
-        /* display: block; */
+        display: block;
         line-height: 1.5;
         padding: 0.5rem 0rem;
         position: relative;
-    }
+    } */
 }
 
-@media screen {}
-
-@media screen {}
+@media (max-width: 768px) {
+    .tile {
+        padding-left: 7em;
+        font-size: 8pt;
+        width: 50vw;
+    }
+    .nav-index>.navbar-item>a {
+        font-size: 12pt;
+        padding-bottom: 2rem;
+    }
+}
