@@ -1,6 +1,6 @@
 body {
     background-color: whitesmoke !important;
-    height: 100%;
+    height: 100vh;
 }
 
 .navbar-item img {
@@ -63,14 +63,14 @@ body {
 }
 
 .headbar {
-    height: 8%;
+    height: 7vh;
     position: absolute;
     top: 16%;
     width: 58.33333333%;
     background: white;
     z-index: 0;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -82,66 +82,36 @@ body {
     font-weight: bold;
 }
 
-.case{
+.case {
     background-color: #000;
-    margin: 10rem;
-    height: 30rem;
-    width: 20%;
+    height: 60vh;
     display: inline-block;
+}
+
+[class *="b"] {
+    background-size: cover;
+    background-position: center;
 }
 
 .b1 {
     background-image: url("../assets/img/preproduction.png");
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    margin-top: 5.5rem;
-    margin-left: 13rem;
-
 }
 
 .b2 {
     background-image: url("../assets/img/photography.png");
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    margin-top: 5.5rem;
-    margin-left: 35rem;
 }
 
 .b3 {
     background-image: url("../assets/img/retouch.png");
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    margin-top: 5.5rem;
-    margin-left: 57rem;
 }
 
 .b4 {
     background-image: url("../assets/img/printabdfinish.png");
-    background-size: cover;
-    background-position: center;
     width: 72%;
     height: 16rem;
-    margin-top: 39rem;
-    margin-left: 13rem;
-    margin-bottom: 2rem;
 }
 
-.b1:hover .innertext {
-    display: block;
-}
-
-.b2:hover .innertext {
-    display: block;
-}
-
-.b3:hover .innertext {
-    display: block;
-}
-
-.b4:hover .innertext {
+[class *="b"]:hover .innertext {
     display: block;
 }
 
@@ -154,19 +124,19 @@ body {
     display: none;
 }
 
-.headertext{
+.headertext {
     text-decoration: underline;
     font-family: LAOSANGAMMN;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-.subtext{
+.subtext {
     font-family: JS-THANAPORN;
     font-weight: normal;
     font-size: 1.25rem;
 }
 
-.last{
+.last {
     height: 88%;
 }
