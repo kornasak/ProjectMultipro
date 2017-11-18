@@ -22,7 +22,7 @@ body {
 }
 
 .img_logo {
-    height: 4rem;
+    height: 6.5vh;
 }
 
 .nav_logo:hover {
@@ -36,7 +36,7 @@ body {
 
 .now_page {
     background-color: #222222;
-    border-bottom: 10px solid #f34a28;
+    border-bottom: 0.3em solid #f34a28;
     padding-bottom: 0;
 }
 

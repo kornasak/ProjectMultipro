@@ -1,6 +1,5 @@
 body {
     background-color: whitesmoke !important;
-    height: 100vh;
 }
 
 .navbar-item img {
@@ -22,7 +21,7 @@ body {
 }
 
 .img_logo {
-    height: 4rem;
+    height: 6.5vh;
 }
 
 .nav_logo:hover {
@@ -36,7 +35,7 @@ body {
 
 .now_page {
     background-color: #222222;
-    border-bottom: 10px solid #f34a28;
+    border-bottom: 0.3em solid #f34a28;
     padding-bottom: 0;
 }
 
@@ -65,26 +64,32 @@ body {
 .headbar {
     height: 7vh;
     position: absolute;
-    top: 16%;
-    width: 58.33333333%;
+    width: 50%;
     background: white;
     z-index: 0;
     text-align: center;
-    margin-top: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    margin-top: 2.5vh;
 }
 
 .title {
-    font-size: 1.2rem !important;
+    font-size: 1.5rem !important;
     margin-bottom: 0 !important;
     opacity: 1 !important;
     font-weight: bold;
+    margin-right: 20pt;
+}
+
+.text-bar {
+    padding-left: 1em;
+    font-size: 1.2em;
+    padding-top: calc(3.5vh - 0.75rem);
+    float: left;
+    margin-left: 10em;
 }
 
 .case {
     background-color: #000;
-    height: 60vh;
+    height: 70vh;
     display: inline-block;
 }
 
@@ -107,8 +112,7 @@ body {
 
 .b4 {
     background-image: url("../assets/img/printabdfinish.png");
-    width: 72%;
-    height: 16rem;
+    height: 30vh;
 }
 
 [class *="b"]:hover .innertext {
@@ -116,11 +120,11 @@ body {
 }
 
 .innertext {
-    background-color: rgba(54, 54, 54, .5);
+    background-color: rgba(54, 54, 54, .7);
     color: #fff;
     padding: 1rem;
-    margin: 1rem;
-    height: 93%;
+    margin: 0.5rem;
+    height: 95%;
     display: none;
 }
 
@@ -139,4 +143,8 @@ body {
 
 .last {
     height: 88%;
+}
+
+.columns {
+    margin-top: 5vh;
 }
