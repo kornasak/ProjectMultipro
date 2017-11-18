@@ -139,7 +139,6 @@ body {
 }
 
 .album {
-    background-color: #000;
     height: 24rem;
     width: 56rem;
     margin-left: 14rem;
@@ -155,4 +154,8 @@ body {
     font-size: 1.5rem;
     color: #fff;
     padding: 1rem;
+}
+
+.main-color {
+    color: #f34a28 !important;
 }
