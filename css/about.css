@@ -22,7 +22,7 @@ body {
 }
 
 .img_logo {
-    height: 5rem;
+    height: 4rem;
 }
 
 .nav_logo:hover {
@@ -42,9 +42,9 @@ body {
 
 .black_navbar {
     background-color: #222222;
-    height: 3rem;
-    width: 57vw;
-    margin-top: 2%;
+    height: 4vh;
+    width: 55vw;
+    margin-top: 2.5vh;
 }
 
 .box_nav_item {
@@ -136,7 +136,8 @@ body {
     color: #fff;
     padding-left: 19rem;
 }
-@media screen and (max-width: 1366px) and (min-width: 1281px){
+
+@media screen and (max-width: 1366px) and (min-width: 1281px) {
     .black_navbar {
         background-color: #222222;
         height: 3rem;
@@ -160,7 +161,7 @@ body {
         width: 100%;
         height: 25px;
         position: absolute;
-        float:right;
+        float: right;
         margin-left: 43rem;
         margin-top: 0.75rem;
     }
@@ -194,7 +195,8 @@ body {
         padding-left: 18rem;
     }
 }
-@media screen and (max-width: 1280px) and (min-width: 1081px){
+
+@media screen and (max-width: 1280px) and (min-width: 1081px) {
     .black_navbar {
         background-color: #222222;
         height: 3rem;

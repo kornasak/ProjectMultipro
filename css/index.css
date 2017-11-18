@@ -7,8 +7,23 @@ body {
 div.column.is-12 {
     height: 100vh;
     background: url("../assets/img/h_bg.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
+    animation-name: zoom;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zoom {
+    0% {
+        background-size: 100%;
+    }
+    50% {
+        background-size: 120%;
+    }
+    100% {
+        background-size: 100%;
+    }
 }
 
 .more_menu {
@@ -190,5 +205,8 @@ div.column.is-12 {
     }
     .b-logo {
         width: 70%;
+    }
+    div.column.is-12 {
+        animation-name: none;
     }
 }

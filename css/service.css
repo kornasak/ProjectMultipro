@@ -22,7 +22,7 @@ body {
 }
 
 .img_logo {
-    height: 5rem;
+    height: 4rem;
 }
 
 .nav_logo:hover {
@@ -42,9 +42,9 @@ body {
 
 .black_navbar {
     background-color: #222222;
-    height: 3rem;
-    width: 57vw;
-    margin-top: 2%;
+    height: 4vh;
+    width: 55vw;
+    margin-top: 2.5vh;
 }
 
 .box_nav_item {
