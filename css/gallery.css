@@ -69,11 +69,11 @@ body {
     background: white;
     z-index: 0;
     text-align: center;
-    margin-top: 2.5vh;
+    margin-top: 4vh;
 }
 
 .title {
-    font-size: 1.5rem !important;
+    font-size: 1.5em !important;
     margin-bottom: 0 !important;
     opacity: 1 !important;
     font-weight: bold;
@@ -83,7 +83,7 @@ body {
 .text-bar {
     padding-left: 1em;
     font-size: 1.2em;
-    padding-top: calc(3.5vh - 0.75rem);
+    padding-top: calc(3.5vh - 1.5em);
     float: left;
     margin-left: 5em;
 }
