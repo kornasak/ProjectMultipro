@@ -63,23 +63,29 @@ body {
 }
 
 .headbar {
-    height: 8%;
+    height: 7vh;
     position: absolute;
-    top: 16%;
-    width: 58.33333333%;
+    width: 50%;
     background: white;
     z-index: 0;
     text-align: center;
-    margin-top: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    margin-top: 4vh;
 }
 
 .title {
-    font-size: 1.2rem !important;
+    font-size: 1.5em !important;
     margin-bottom: 0 !important;
     opacity: 1 !important;
     font-weight: bold;
+    margin-right: 10pt;
+}
+
+.text-bar {
+    padding-left: 1em;
+    font-size: 1.2em;
+    padding-top: calc(3.5vh - 1.5em);
+    float: left;
+    margin-left: 5em;
 }
 
 .bar1 {
@@ -88,7 +94,7 @@ body {
     height: 25px;
     position: absolute;
     margin-left: 43rem;
-    margin-top: -28.5rem;
+    margin-top: 1.5rem;
 }
 
 .bar2 {
@@ -105,15 +111,18 @@ body {
     background-image: url("../assets/img/CONTACT.jpg");
     background-size: cover;
     background-repeat: repeat-x;
-    height: 30rem;
+    background-position: left;
+    height: 82vh;
 }
 
 .footer {
     background: #ffffff;
     width: 100vw !important;
-    height: 12% !important;
+    height: 10% !important;
     margin: 0 !important;
     padding: 1rem 1.5rem 0.5rem !important;
+    position: absolute;
+    bottom: 0;
 }
 
 a.footer-item {
@@ -124,7 +133,7 @@ a.footer-item {
     background: white;
     position: absolute;
     height: 55vh;
-    top: 32vh;
+    top: 25vh;
     z-index: 1;
 }
 
@@ -166,13 +175,6 @@ button.button {
     padding-left: 3%;
 }
 
-.title {
-    font-size: 1.2rem !important;
-    margin-bottom: 0 !important;
-    opacity: 1 !important;
-    font-weight: bold;
-}
-
 .sub-title {
     font-size: 0.95rem !important;
 }
@@ -185,17 +187,6 @@ button.button {
 .t2 {
     top: 15%;
     z-index: 1;
-}
-
-.headbar {
-    height: 8%;
-    position: absolute;
-    top: 16%;
-    width: 58.33333333%;
-    background: white;
-    z-index: 0;
-    text-align: center;
-    padding-top: 1.5%;
 }
 
 .footertext {
