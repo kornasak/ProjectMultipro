@@ -41,9 +41,10 @@ body {
 
 .black_navbar {
     background-color: #222222;
-    height: 4vh;
+    height: 5vh;
     width: 55vw;
-    margin-top: 2.5vh;
+    margin-top: 2vh;
+    justify-content: flex-start !important;
 }
 
 .box_nav_item {
