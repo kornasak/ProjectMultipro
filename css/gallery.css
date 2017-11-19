@@ -73,7 +73,7 @@ body {
 }
 
 .title {
-    font-size: 1.5em !important;
+    font-size: 18pt !important;
     margin-bottom: 0 !important;
     opacity: 1 !important;
     font-weight: bold;
@@ -82,7 +82,7 @@ body {
 
 .text-bar {
     padding-left: 1em;
-    font-size: 1.2em;
+    font-size: 14pt;
     padding-top: calc(3.5vh - 1.5em);
     float: left;
     margin-left: 5em;
@@ -123,7 +123,7 @@ body {
     margin-left: 64rem;
     margin-bottom: 1.5rem;
     color: #f34a28;
-    font-size: 1rem;
+    font-size: 12pt;
     font-family: GLACIALINDIFFERENCE-BOLD;
     padding-left: 1rem;
     padding-top: 0.25rem;
@@ -151,7 +151,7 @@ body {
 
 .innertext {
     font-family: GLACIALINDIFFERENCE-BOLD;
-    font-size: 1.5rem;
+    font-size: 18pt;
     color: #fff;
     padding: 1rem;
 }
