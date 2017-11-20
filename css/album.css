@@ -28,6 +28,30 @@ body {
 .pic-a-10 {
     margin-top: 2vh;
 }
+
+.col2 {
+    margin-top: -44vh;
+}
+
+.pic-c-2 {
+    margin-top: 27vh;
+}
+
+.pic-c-5 {
+    margin-top: 12vh;
+}
+
+.pic-c-6 {
+    margin-top: -22vh;
+}
+
+.pic-c-7 {
+    margin-top: -11vh;
+}
+
+.col3 {
+    margin-top: -39vh;
+}
 /* desktop */
 
 
@@ -55,8 +79,17 @@ body {
         border-bottom: none;
         padding-bottom: 0.5rem;
     }
+    .pic-a-4, .pic-a-6, .pic-a-9 {
+        padding-bottom: 1.5rem;
+    }
     .pic-a-2, .pic-a-6, .pic-a-7, .pic-a-8, .pic-a-9, .pic-a-10 {
-        margin-top: 0;
+        margin-top: 0 !important;
+    }
+    .col2, .col3 {
+        margin-top: 0 !important;
+    }
+    .pic-c-2, .pic-c-5, .pic-c-6, .pic-c-7 {
+        margin-top: 0 !important;
     }
 }
 
@@ -84,7 +117,16 @@ body {
         border-bottom: none;
         padding-bottom: 0.5rem;
     }
+    .pic-a-4, .pic-a-6, .pic-a-9 {
+        padding-bottom: 1.5rem;
+    }
     .pic-a-2, .pic-a-6, .pic-a-7, .pic-a-8, .pic-a-9, .pic-a-10 {
-        margin-top: 0;
+        margin-top: 0 !important;
+    }
+    .col2, .col3 {
+        margin-top: 0 !important;
+    }
+    .pic-c-2, .pic-c-5, .pic-c-6, .pic-c-7 {
+        margin-top: 0 !important;
     }
 }
