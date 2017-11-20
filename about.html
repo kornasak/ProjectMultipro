@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/bulma-0.6.1/css/bulma.css">
     <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 </head>
 
 <body>
@@ -45,26 +45,28 @@
     <div class="columns">
         <div class="column tile is-7 is-offset-5 bar1 level-right"></div>
     </div>
-    <div class="columns is-3 abt_img">
-        <div class="column is-1"></div>
-        <div class="column is-2 profile1"></div>
+    <div class="columns abt_img is-hidden-touch">
+        <div class="column is-2 is-offset-1 profile1"></div>
         <div class="column is-2 profile2"></div>
         <div class="column is-2 profile3"></div>
         <div class="column is-2 profile4"></div>
         <div class="column is-2 profile5"></div>
     </div>
-
+    <div class="columns is-multiline abt_img taco is-hidden-desktop is-mobile">
+        <div class="column is-8 is-offset-2 profile1 slide page1"></div>
+        <div class="column is-8 is-offset-2 profile2 slide page2"></div>
+        <div class="column is-8 is-offset-2 profile3 slide page3"></div>
+        <div class="column is-8 is-offset-2 profile4 slide page4"></div>
+        <div class="column is-8 is-offset-2 profile5 slide page5"></div>
+    </div>
     <div class="columns">
-        <div class="column is-3 is-offset-3 about_text">
-            <p> &ensp;&ensp;&ensp;เราเป็นทีมสตูดิโอถ่ายภาพบุคคลสินค้าเสื้อผ้าสำหรับวัยรุ่น ที่มากประสบการในกรุงเทพมหานครของประเทศไทยเรา ถ่ายภาพในไทยและทั่วโลกเรารักการถ่ายภาพ “หัวกล้อง” มี รูปแบบที่เป็นเอกลักษณ์เราทำงานร่วมกับลูกค้าของเราเพื่อ สร้างความเป็นส่วนตัวและมีความหมายสำหรับเสื้อผ้าของ
-                พวกเขาและแสดงถึงบุคลิกของแบรนด์
-            </p>
+        <div class="column is-6 is-offset-3 is-10-mobile is-offset-1-mobile about_text">&ensp;&ensp;&ensp;เราเป็นทีมสตูดิโอถ่ายภาพบุคคลสินค้าเสื้อผ้าสำหรับวัยรุ่น ที่มากประสบการณ์ในกรุงเทพมหานครของประเทศไทยเรา ถ่ายภาพในไทยและทั่วโลกเรารักการถ่ายภาพ “หัวกล้อง” มี รูปแบบที่เป็นเอกลักษณ์เราทำงานร่วมกันกับลูกค้าของเราเพื่อ สร้างความเป็นส่วนตัวและมีความหมายสำหรับเสื้อผ้าของ
+            พวกเขาและแสดงถึงบุคลิกของแบรนด์
         </div>
     </div>
+
+    <script src="js/slideshow.js"></script>
     <script src="js/nav.js"></script>
-    <!--<div style="margin-top: 3%;margin-left: 15%; width: 70%; height: 100%; background-image: url(assets/pic/about_bg.jpg); background-size: cover"></div>
-    <div class="tile is-6 is-offset-8" style="background-color: #f34a28; width: 100%; height: 25px; margin-top: -45%; position: absolute; margin-left: 70%"></div>
-    <div class="tile is-6 is-offset-8" style="background-color: #f34a28; width: 55%; height: 25px; margin-top: -20%; position: absolute;"></div> -->
 </body>
 
 </html>

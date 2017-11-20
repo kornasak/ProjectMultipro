@@ -1,46 +1,54 @@
-jQuery(document).ready(function($) {
+(function($) {
+    $.fn.slideShow = function(settings) {
 
-    $('#checkbox').change(function() {
-        setInterval(function() {
-            moveRight();
-        }, 3000);
-    });
+        settings = $.extend({ message: '<p class="clickMe">Click slides to progress through presentation</p>' }, settings);
+        var list = $(this);
+        var listItems = list.children('.slide');
+        var listHeight = $(listItems).css('height');
+        var listWidth = $(listItems).css('width');
 
-    var slideCount = $('#slider ul li').length;
-    var slideWidth = $('#slider ul li').width();
-    var slideHeight = $('#slider ul li').height();
-    var sliderUlWidth = slideCount * slideWidth;
+        $(listItems).addClass('go');
+        $(listItems).last().addClass('stop').removeClass('go');
 
-    $('#slider').css({ width: slideWidth, height: slideHeight });
+        list.append(listItems.get().reverse());
 
-    $('#slider ul').css({ width: sliderUlWidth, marginLeft: -slideWidth });
+        $(listItems).first().append('<p class="clickMe">' + settings.message + '</p>');
 
-    $('#slider ul li:last-child').prependTo('#slider ul');
-
-    function moveLeft() {
-        $('#slider ul').animate({
-            left: +slideWidth
-        }, 200, function() {
-            $('#slider ul li:last-child').prependTo('#slider ul');
-            $('#slider ul').css('left', '');
+        $('.clickMe').css({
+            'font-size': '12px',
+            'line-height': '12px',
+            'font-weight': 'normal',
+            'text-align': 'center',
+            'position': 'absolute',
+            'bottom': '0px',
+            'background': 'rgba(255,255,255,.45)',
+            'padding': '10px 0 20px 0',
+            'margin': '0px',
+            'width': '100%'
         });
-    };
 
-    function moveRight() {
-        $('#slider ul').animate({
-            left: -slideWidth
-        }, 200, function() {
-            $('#slider ul li:first-child').appendTo('#slider ul');
-            $('#slider ul').css('left', '');
+        $(list).css({
+            'height': listHeight,
+            'overflow': 'hidden',
+            'position': 'relative'
         });
+        $('.slide').css({
+            'width': listWidth,
+            'position': 'absolute',
+            'top': '0px',
+            'left': '0px',
+            'cursor': 'pointer'
+        });
+
+        $('.go').on('click', function() {
+            $(this).fadeOut(250);
+        });
+
+        $('.stop').on('click', function() {
+            $('.go').fadeIn(250);
+        });
+
     };
+})(jQuery);
 
-    $('a.control_prev').click(function() {
-        moveLeft();
-    });
-
-    $('a.control_next').click(function() {
-        moveRight();
-    });
-
-});
+$('.taco').slideShow();
