@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Hua Kong Studio</title>
     <meta charset="UTF-8">
@@ -10,20 +11,26 @@
     <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <nav class="navbar is-white" role="navigation" aria-label="main navigation">
-        <div class="navbar-menu">
-            <div class="navbar-start">
-                <a class="nav_logo">
-                    <img class="img_logo" src="assets/img/logo.svg" alt="Logo">
-                </a>
+        <div class="navbar-brand">
+            <a class="nav_logo" href="index.html">
+                <img class="img_logo" src="assets/img/logo.svg" alt="Logo">
+            </a>
+            <div class="navbar-burger burger" data-target="navbar">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
+        </div>
+        <div id="navbar" class="navbar-menu">
             <div class="navbar-end black_navbar">
                 <a class="navbar-item box_nav_item" href="index.html">HOME</a>
                 <a class="navbar-item box_nav_item" href="about.html">ABOUT</a>
                 <a class="navbar-item box_nav_item now_page" href="gallery.html">GALLERY</a>
                 <a class="navbar-item box_nav_item" href="service.html">SERVICE</a>
-                <a class="navbar-item box_nav_item_last" href="contact.html">CONTACT</a>
+                <a class="navbar-item box_nav_item" href="contact.html">CONTACT</a>
             </div>
         </div>
     </nav>
@@ -72,5 +79,7 @@
             </div>
         </div>
     </div>
+    <script src="js/nav.js"></script>
 </body>
+
 </html>
