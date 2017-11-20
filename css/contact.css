@@ -105,7 +105,7 @@ body {
     position: absolute;
     margin-left: 43rem;
     margin-top: -2.5rem;
-    z-index: 2;
+    /*z-index: 2;*/
 }
 
 .movebg {
@@ -132,10 +132,11 @@ a.footer-item {
 
 .contact_box {
     background: white;
-    position: absolute;
+    /*position: absolute;*/
     height: 55vh;
     top: 25vh;
-    z-index: 1;
+    margin-top: 20vh;
+    /*z-index: 1;*/
 }
 
 div.column {
@@ -198,4 +199,80 @@ button.button {
 
 .footer-item img {
     max-width: 2%;
+}
+
+/* tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .text-bar {
+        margin-left: 5em;
+    }
+    .text-bar>p {
+        display: none;
+    }
+    .black_navbar {
+        background-color: inherit;
+        height: inherit;
+        width: inherit;
+        margin-top: 2vh;
+        justify-content: flex-start !important;
+    }
+    .box_nav_item {
+        color: black !important;
+    }
+    .now_page {
+        background-color: inherit;
+        border-bottom: none;
+        padding-bottom: 0.5rem;
+    }
+    .contact-desc {
+        width: 60vw;
+        margin-left: 3vw;
+    }
+    form {
+        display: none;
+    }
+    .footer-item img {
+        max-width: 4%;
+    }
+}
+
+
+/* mobile */
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 12pt !important;
+    }
+    .text-bar {
+        margin-left: 1em;
+    }
+    .text-bar>p {
+        display: none;
+    }
+    .black_navbar {
+        background-color: inherit;
+        height: inherit;
+        width: inherit;
+        margin-top: 2vh;
+        justify-content: flex-start !important;
+    }
+    .box_nav_item {
+        color: black !important;
+    }
+    .now_page {
+        background-color: inherit;
+        border-bottom: none;
+        padding-bottom: 0.5rem;
+    }
+    .contact-desc {
+        width: 60vw;
+        margin-left: 3vw;
+    }
+    form {
+        display: none;
+    }
+    .footer-item img {
+        max-width: 7%;
+    }
 }
