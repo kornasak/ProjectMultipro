@@ -161,6 +161,18 @@ body {
     justify-content: center;
 }
 
+article.tile>img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+article.tile>img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 @media (max-width: 1023px) {
     .centered {
         display: block;
