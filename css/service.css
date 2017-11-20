@@ -137,14 +137,14 @@ body {
 .headertext {
     text-decoration: underline;
     font-family: LAOSANGAMMN;
-    font-size: inherit;
+    font-size: 18pt;
     font-weight: bold;
 }
 
 .subtext {
     font-family: JS-THANAPORN;
     font-weight: normal;
-    font-size: inherit;
+    font-size: 14.5pt;
 }
 
 .last {
@@ -178,6 +178,17 @@ body {
     }
     .b4 {
         margin-top: 5vh;
+    }
+    .headertext {
+        text-decoration: underline;
+        font-family: LAOSANGAMMN;
+        font-size: inherit;
+        font-weight: bold;
+    }
+    .subtext {
+        font-family: JS-THANAPORN;
+        font-weight: normal;
+        font-size: inherit;
     }
 }
 
@@ -214,5 +225,11 @@ body {
     }
     .b4 {
         margin-top: 0vh;
+    }
+    .headertext {
+        font-size: inherit;
+    }
+    .subtext {
+        font-size: inherit;
     }
 }
