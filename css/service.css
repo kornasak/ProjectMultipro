@@ -73,11 +73,11 @@ body {
 }
 
 .title {
-    font-size: 18pt !important;
+    font-size: 20pt !important;
     margin-bottom: 0 !important;
     opacity: 1 !important;
     font-weight: bold;
-    margin-right: 20pt;
+    margin-right: 10pt;
 }
 
 .text-bar {
@@ -85,7 +85,11 @@ body {
     font-size: 14pt;
     padding-top: calc(3.5vh - 1.5em);
     float: left;
-    margin-left: 10em;
+    margin-left: 1em;
+}
+
+.text-bar>p {
+    display: inline-block;
 }
 
 .case {
@@ -114,6 +118,7 @@ body {
 .b4 {
     background-image: url("../assets/img/printabdfinish.png");
     height: 30vh;
+    margin-top: 5vh;
 }
 
 [class *="b"]:hover .innertext {
@@ -132,16 +137,82 @@ body {
 .headertext {
     text-decoration: underline;
     font-family: LAOSANGAMMN;
-    font-size: 18pt;
+    font-size: inherit;
     font-weight: bold;
 }
 
 .subtext {
     font-family: JS-THANAPORN;
     font-weight: normal;
-    font-size: 14.5pt;
+    font-size: inherit;
 }
 
 .last {
     height: 88%;
+}
+
+
+/* tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .text-bar {
+        margin-left: 5em;
+    }
+    .text-bar>p {
+        display: none;
+    }
+    .black_navbar {
+        background-color: inherit;
+        height: inherit;
+        width: inherit;
+        margin-top: 2vh;
+        justify-content: flex-start !important;
+    }
+    .box_nav_item {
+        color: black !important;
+    }
+    .now_page {
+        background-color: inherit;
+        border-bottom: none;
+        padding-bottom: 0.5rem;
+    }
+    .b4 {
+        margin-top: 5vh;
+    }
+}
+
+
+/* mobile */
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 12pt !important;
+    }
+    .text-bar>p {
+        display: none;
+    }
+    .black_navbar {
+        background-color: inherit;
+        height: inherit;
+        width: inherit;
+        margin-top: 2vh;
+        justify-content: flex-start !important;
+    }
+    .box_nav_item {
+        color: black !important;
+    }
+    .now_page {
+        background-color: inherit;
+        border-bottom: none;
+        padding-bottom: 0.5rem;
+    }
+    .case {
+        height: 55vh;
+    }
+    [class *="b"].innertext {
+        display: block;
+    }
+    .b4 {
+        margin-top: 0vh;
+    }
 }
