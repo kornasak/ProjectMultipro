@@ -142,7 +142,7 @@ body {
 .album {
     height: 24rem;
     width: 56rem;
-    margin-left: 14rem;
+    /* margin-left: 14rem; */
     margin-bottom: 0.65rem;
     cursor: pointer;
     -webkit-transform: scale(1);
