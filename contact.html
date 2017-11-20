@@ -47,54 +47,62 @@
         <div class="columns is-mobile">
             <div class="column tile is-7 is-offset-5 bar1"></div>
         </div>
+
         <div class="columns is-mobile">
-            <div class="contact_box colums column is-8 is-offset-2">
-                <form action="mailto:bazchayapon@gmail.com" method="post" enctype="text/plain">
-                    <div class="column">
-                        <div>
-                            <p class="form-label">name<span class="main-color">*</span></p>
-                            <input name="name" type="text" style="width: 12.5vw;">
+            <div class="contact_box column tile is-8 is-offset-2">
+                <div class="tile is-ancestor">
+                    <div class="tile is-8 is-vertical is-parent forminput">
+                        <div class="tile is-parent" style="padding: 0;">
+                            <article class="field column is-6">
+                                <label class="label">name<span style="color: #ca4227">*</span></label>
+                                <div class="control">
+                                    <input class="input" type="text" placeholder="" style="background-color: #c9d4d5">
+                                </div>
+                            </article>
+                            <article class="field column is-6">
+                                <label class="label">email<span style="color: #ca4227">*</span></label>
+                                <div class="control">
+                                    <input class="input" type="text" placeholder="" style="background-color: #c9d4d5">
+                                </div>
+                            </article>
                         </div>
-                        <div style="margin-left: 3.5vw">
-                            <p class="form-label">email<span class="main-color">*</span></p>
-                            <input name="email" type="email" style="width: 20.8333333vw;">
+                        <div class="tile is-child">
+                            <label class="label" style="margin-left: 2vh;">message<span style="color: #ca4227">*</span></label>
+                            <div class="control">
+                                <textarea class="textarea" placeholder="" style="background-color: #c9d4d5"></textarea>
+                            </div>
+                            <div class="field is-pulled-right">
+                                <div class="control">
+                                    <button class="button">SEND</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="column" style="display:block !important;">
-                        <p>message<span class="main-color">*</span></p>
-                        <textarea name="detail" style="width: 36.8333333vw;" cols="100" rows="10"></textarea><br>
-                        <button type="submit" class="button is-pulled-right">SEND</button>
-                    </div>
-                </form>
-                <div class="contact-desc">
-                    <div class="desc">
-                        <h2 class="title main-color">EMAIL</h2>
-                        <p class="sub-title">bazchayapon@gmail.com</p><br>
-                        <h2 class="title main-color">TELEPHONE</h2>
-                        <p class="sub-title">(+66)806081150</p><br>
-                        <h2 class="title main-color">ADDRESS</h2>
-                        <p class="sub-title">Hua Kong Studio</p>
-                        <p class="sub-title">Nantawan Village 233/147</p>
-                        <p class="sub-title">Nantawaree3 Srinakarin Road</p>
-                        <p class="sub-title">Samutprakarn 10270</p>
+                    <div class="tile is-parent is-4">
+                        <div class="tile is-child co-detail">
+                            <h2 class="title main-color">EMAIL</h2>
+                            <p class="sub-title">bazchayapon@gmail.com</p><br>
+                            <h2 class="title main-color">TELEPHONE</h2>
+                            <p class="sub-title">(+66)806081150</p><br>
+                            <h2 class="title main-color">ADDRESS</h2>
+                            <p class="sub-title">Hua Kong Studio</p>
+                            <p class="sub-title">Nantawan Village 233/147</p>
+                            <p class="sub-title">Nantawaree3 Srinakarin Road</p>
+                            <p class="sub-title">Samutprakarn 10270</p>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
+        <footer>
+            <div class="footer" style="text-align: center;">
+                <a href="#" class="footer-item"><img src="assets/img/Asset 1.svg" alt=""></a>
+                <a href="#" class="footer-item"><img src="assets/img/Asset 3.svg" alt=""></a>
+                <a href="#" class="footer-item"><img src="assets/img/Asset 4.svg" alt=""></a>
+                <p class="footertext"> COPYRIGHT (C) HUA KONG CO., LTD. ALL RIGHTS RESERVED.</p>
+            </div>
+        </footer>
     </div>
-
-
-    <!-- <div class="tile is-5 bar2"></div> -->
-
-    <footer>
-        <div class="footer" style="text-align: center;">
-            <a href="#" class="footer-item"><img src="assets/img/Asset 1.svg" alt=""></a>
-            <a href="#" class="footer-item"><img src="assets/img/Asset 3.svg" alt=""></a>
-            <a href="#" class="footer-item"><img src="assets/img/Asset 4.svg" alt=""></a>
-            <p class="footertext"> COPYRIGHT (C) HUA KONG CO., LTD. ALL RIGHTS RESERVED.</p>
-        </div>
-    </footer>
 </body>
 <script src="js/nav.js"></script>
 <script type="text/javascript" src="js/contact.js"></script>
