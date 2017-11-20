@@ -1,6 +1,8 @@
 body {
     background-color: whitesmoke !important;
     background-repeat: repeat;
+    overflow: hidden !important;
+    position: fixed;
 }
 
 .navbar-item img {
