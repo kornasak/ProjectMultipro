@@ -226,14 +226,21 @@ body {
         background-position-y: -70px;
     }
     #button-previous {
-        float:left;
-        margin-left: 5%;
+        float: left;
+        margin-left: 16.66667%;
         padding-bottom: 1vh;
     }
     #button-next {
-        float:right;
-        margin-right: 5%;
+        float: right;
+        margin-right: 16.66667%;
         padding-bottom: 1vh;
+    }
+    [id*="button"] {
+        background: #f34a28;
+        color: white;
+        text-align: center;
+        width: 13vw;
+        height: 4vh;
     }
 }
 
@@ -265,15 +272,24 @@ body {
         border-bottom: none;
         padding-bottom: 0.5rem;
     }
-    .profile1, .profile2, .profile5 {
+    .profile1,
+    .profile2,
+    .profile5 {
         background-position-y: 0px;
     }
-    #button-previous {
-        float:left;
-        margin-left: 5%;
+    [id*="button"] {
+        background: #f34a28;
+        color: white;
+        text-align: center;
+        width: 13vw;
+        height: 4vh;
     }
-    #button-next {
-        float:right;
-        margin-right: 5%;
+    div#button-previous {
+        float: left;
+        margin-left: 16.66667%;
+    }
+    div#button-next {
+        float: right;
+        margin-right: 16.66667%;
     }
 }
