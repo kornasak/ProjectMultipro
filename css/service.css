@@ -137,14 +137,14 @@ body {
 .headertext {
     text-decoration: underline;
     font-family: LAOSANGAMMN;
-    font-size: 18pt;
+    font-size: 20pt;
     font-weight: bold;
 }
 
 .subtext {
     font-family: JS-THANAPORN;
     font-weight: normal;
-    font-size: 14.5pt;
+    font-size: 18pt;
 }
 
 .last {
@@ -154,7 +154,7 @@ body {
 
 /* tablet */
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .text-bar {
         margin-left: 5em;
     }
@@ -176,19 +176,20 @@ body {
         border-bottom: none;
         padding-bottom: 0.5rem;
     }
-    .b4 {
-        margin-top: 5vh;
+    /* .b4 {
+        margin-top: 3vh;
+    } */
+    .case {
+        height: 55vh;
+    }
+    .innertext {
+        display: block !important;
     }
     .headertext {
-        text-decoration: underline;
-        font-family: LAOSANGAMMN;
-        font-size: inherit;
-        font-weight: bold;
+        font-size: 18pt;
     }
     .subtext {
-        font-family: JS-THANAPORN;
-        font-weight: normal;
-        font-size: inherit;
+        font-size: 16pt;
     }
 }
 
@@ -218,7 +219,7 @@ body {
         padding-bottom: 0.5rem;
     }
     .case {
-        height: 55vh;
+        height: 60vh;
     }
     [class *="b"].innertext {
         display: block;
@@ -226,10 +227,13 @@ body {
     .b4 {
         margin-top: 0vh;
     }
+    .innertext {
+        display: block !important;
+    }
     .headertext {
-        font-size: inherit;
+        font-size: 16pt;
     }
     .subtext {
-        font-size: inherit;
+        font-size: 14pt;
     }
 }
