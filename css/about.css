@@ -176,6 +176,10 @@ body {
     background-size: cover;
     background-position: center;
     height: 50vh;
+    /*-webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;*/
 }
 
 @import "compass/css3";
@@ -184,6 +188,18 @@ body {
 .slide {
     text-align: center;
     font: bold 30px/350px sans-serif;
+}
+
+.boxtext {
+    background: rgba(0,0,0,.75);
+    color: white;
+    text-align: center;
+    margin-top: 38vh;
+    display: none;
+}
+
+[class*="profile"]:hover .boxtext {
+    display: block;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -242,6 +258,9 @@ body {
         width: 13vw;
         height: 4vh;
     }
+    .boxtext {
+        display: block;
+    }
 }
 
 
@@ -291,5 +310,8 @@ body {
     div#button-next {
         float: right;
         margin-right: 16.66667%;
+    }
+    .boxtext {
+        display: block;
     }
 }
